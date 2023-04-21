@@ -1,0 +1,93 @@
+html{
+    background-color: #000000;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 50px;
+    flex-wrap: wrap;
+  }
+  
+  .grid {
+    width: 200px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(20, 1fr);
+    background-color: #000000;
+    border: 2px solid #ffffff;
+  }
+  
+  .grid div {
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+  }
+  
+  .tetromino {
+    background-color: #f2f5f7;
+  }
+  
+  .mini-grid {
+    width: 80px;
+    height: 80px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    background-color: #000000;
+    border: 2px solid #fffefa;
+  }
+  
+  .mini-grid div {
+    box-sizing: border-box;
+    border: 1px solid #fffffd;
+  }
+  
+  .score-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .score-container h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .score-container #score {
+    margin-left: 5px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #start-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    background-color: #ffffff;
+    cursor: pointer;
+  }
+  
+  #start-button:hover {
+    background-color: #000000;
+  }
+  
+  #start-button:focus {
+    outline: none;
+  }
+  
+ 
